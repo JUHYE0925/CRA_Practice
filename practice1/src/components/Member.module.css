@@ -1,0 +1,10 @@
+.member{
+    background-color: powderblue;
+    color: black;
+}
+
+.member:hover{
+    background-color: cadetblue;
+    color: white;
+    cursor: pointer;
+}
