@@ -11,10 +11,16 @@ function Header(){
         cursor : 'pointer'
     }
 
+    const btnStyle {
+        
+    }
+
     return(
-        <>
+        <div>
          <img style={logoStyle} src="/images/CollaTime-Logo.png" alt="콜라타임 로고"/>
-        </>
+         <div>로그인</div>
+         <div>회원가입</div>
+        </div>
     );
 }
 
