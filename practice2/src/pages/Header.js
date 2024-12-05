@@ -6,8 +6,8 @@ function Header(){
         width : 186,    
         height : 67,
         position : 'absolute',
-        left : 132,
-        top : 32,
+        left : 130,
+        top : 30,
         cursor : 'pointer'
     }
 
