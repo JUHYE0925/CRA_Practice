@@ -1,0 +1,58 @@
+$primary-color-pink : #FF8AA3;
+$primary-color-yellow1 : #FFF3A7;
+$primary-color-yellow2 : #FEDA00;
+$primary-color-blue : #B3E7FF;
+$primary-color-black-strong : #232323;
+$primary-color-black-title : #1E1E1E;
+
+.header {
+    background-color: $primary-color-yellow1;
+    width: 1920px;
+    height: 80px;
+
+    #logo{
+        position : absolute;
+        top : 18px;
+        left : 68px;
+        width : 135px;
+        height : 51px;
+    }
+    p {
+        position : absolute;
+        top : 5px;
+        font-family: 'Bobaesum Jindo TTF';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 33px;
+        color: $primary-color-pink;
+        display : inline-block
+    }
+    #search {
+        left : 1185px;
+        width : 56px;
+    }
+    #about {
+        left : 1304px;
+        width : 56px;
+    }
+    #notice {
+        left : 1415px;
+        width : 111px;
+    }
+    #mypage {
+        left : 1580px;
+        width : 138px;
+    }
+    span {
+        position : absolute;
+        top : 40px;
+        left : 1769px;
+        width : 70px;
+        height : 26px;
+        font-family: 'Pretendard Variable';
+        font-weight: 800;
+        font-size : 20px;
+        color : $primary-color-black-title;
+    }
+}
