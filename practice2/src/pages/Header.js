@@ -11,15 +11,16 @@ function Header(){
         cursor : 'pointer'
     }
 
-    const btnStyle {
-        
+    const btnStyle = {
+        color : black,
+        display : 'inline-block'
     }
 
     return(
         <div>
          <img style={logoStyle} src="/images/CollaTime-Logo.png" alt="콜라타임 로고"/>
-         <div>로그인</div>
-         <div>회원가입</div>
+         <div style={btnStyle}>로그인</div>
+         <div style={btnStyle}>회원가입</div>
         </div>
     );
 }
