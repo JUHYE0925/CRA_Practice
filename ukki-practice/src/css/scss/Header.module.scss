@@ -6,20 +6,21 @@ $primary-color-black-strong : #232323;
 $primary-color-black-title : #1E1E1E;
 
 .header {
+    position : fixed;
     background-color: $primary-color-yellow1;
     width: 1920px;
     height: 80px;
 
     #logo{
         position : absolute;
-        top : 18px;
+        top : 10px;
         left : 68px;
         width : 135px;
         height : 51px;
     }
     p {
         position : absolute;
-        top : 5px;
+        top : -3px;
         font-family: 'Bobaesum Jindo TTF';
         font-style: normal;
         font-weight: 400;
@@ -46,7 +47,7 @@ $primary-color-black-title : #1E1E1E;
     }
     span {
         position : absolute;
-        top : 40px;
+        top : 32px;
         left : 1769px;
         width : 70px;
         height : 26px;

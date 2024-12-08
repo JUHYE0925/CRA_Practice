@@ -1,0 +1,50 @@
+.floatingMenu{
+    position : fixed;
+    left : 1783px;
+    box-sizing : border-box;
+    width : 71px;
+    height : 71px;
+    border-radius: 100px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B3E7FF;
+    border: 1.5px solid #FF8AA3;
+}
+
+
+#first {
+    top : 500px;
+
+    #floating_home{
+        width : 60px;
+        height : 48px;
+    }
+}
+
+#second{
+    top : 587px;
+
+    #floating_top{
+        width : 42px;
+        height : 48px;
+    }
+}
+
+#third{
+    top : 674px;
+    
+    #floating_inquiry{
+        width : 23px;
+        height : 46px;
+    }
+}
+
+#fourth{
+    top : 761px;
+    
+    #floatingBar_logo{
+        width : 44px;
+        height : 42px;
+    }
+}
