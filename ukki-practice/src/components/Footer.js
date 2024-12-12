@@ -1,10 +1,11 @@
-import styles from '../css/scss/Footer.module.scss';
+import styles from '../css/Footer.module.css';
+import footer_logo from '../images/common/honbab-ukki.png';
 
 function Footer(){
 
     return(
         <div className={styles.footerStyle}>
-            <img src='/images/common/honbab-ukki.png' alt='혼밥하는 우끼' id={styles.honbab_ukki}/>
+            <img src={footer_logo} alt='혼밥하는 우끼' id={styles.honbab_ukki}/>
             <p id={styles.first}>이용약관 <br/>
                사이트맵 <br/>
                문의하기</p>

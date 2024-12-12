@@ -1,7 +1,9 @@
-import styles from '../css/scss/FloatingBar.module.scss';
-// import { useState, useEffect } from 'react';
-
-
+import styles from '../css/FloatingBar.module.css';
+import floating1 from '../images/common/floating_home.png';
+import floating2 from '../images/common/floating_top.png';
+import floating3 from '../images/common/floating_inquiry.png';
+import floating4 from '../images/common/floatingBar-logo.png';
+import {useState} from 'react';
 
 function FloatingBar(){
 
@@ -27,19 +29,25 @@ function FloatingBar(){
     //     };
     // }, []);
 
+    const [isVisible, setIsVisible] = useState(false);
+
+    const onClickEventHandler = () => {
+        setIsVisible(!isVisible);
+    };
+
     return(
         <>
-        <div className={styles.floatingMenu} id={styles.first}>
-            <img src='/images/common/floating_home.png' alt=' 홈으로 가기'  id={styles.floating_home}/>
+        <div className={styles.floatingMenu} id={styles.first} style={{ opacity: isVisible ? 1 : 0, transition: 'opacity 1s' }}>
+            <img src={floating1} alt=' 홈으로 가기'  id={styles.floating_home}/>
         </div>
-        <div className={styles.floatingMenu} id={styles.second}>            
-            <img src='/images/common/floating_top.png' alt=' 맨위로 가기'  id={styles.floating_top}/>
+        <div className={styles.floatingMenu} id={styles.second} style={{ opacity: isVisible ? 1 : 0, transition: 'opacity 1s' }}>            
+            <img src={floating2} alt=' 맨위로 가기'  id={styles.floating_top}/>
         </div>
-        <div className={styles.floatingMenu} id={styles.third}>
-            <img src='/images/common/floating_inquiry.png' alt=' 맨위로 가기'  id={styles.floating_inquiry}/>
+        <div className={styles.floatingMenu} id={styles.third} style={{ opacity: isVisible ? 1 : 0, transition: 'opacity 1s' }}>
+            <img src={floating3} alt=' 맨위로 가기'  id={styles.floating_inquiry}/>
         </div>
-        <div className={styles.floatingMenu} id={styles.fourth}>
-            <img src='/images/common/floatingBar-logo.png' alt='플로팅바 우끼' id={styles.floatingBar_logo}/>
+        <div className={styles.floatingMenu} id={styles.fourth} onClick={onClickEventHandler}>
+            <img src={floating4} alt='플로팅바 우끼' id={styles.floatingBar_logo}/>
         </div>
         </>
     );

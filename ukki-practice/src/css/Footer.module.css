@@ -1,0 +1,61 @@
+.footerStyle {
+  position: absolute;
+  top: 3928px;
+  width: 1920px;
+  height: 226px;
+  background-color: #FFF3A7;
+  cursor: default;
+}
+.footerStyle #honbab_ukki {
+  position: absolute;
+  left: 149px;
+  top: 29px;
+  width: 152px;
+  height: 115px;
+}
+.footerStyle p {
+  position: absolute;
+  color: #232323;
+  font-family: "Pretendard Variable";
+  font-weight: 400;
+  font-size: 20px;
+  top: 15px;
+  line-height: 35px;
+  cursor: pointer;
+}
+.footerStyle #first {
+  left: 619px;
+  width: 70px;
+  height: 93px;
+}
+.footerStyle #second {
+  left: 756px;
+  width: 139px;
+  height: 93px;
+}
+.footerStyle #third {
+  left: 967px;
+  width: 729px;
+  height: 93px;
+}
+.footerStyle .pinkArea {
+  position: absolute;
+  top: 170px;
+  width: 1920px;
+  height: 56px;
+  background-color: #FF8AA3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: default;
+}
+.footerStyle .pinkArea P {
+  position: absolute;
+  top: -8px;
+  color: #FFFFFF;
+  font-family: "Pretendard Variable";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  cursor: default;
+}/*# sourceMappingURL=Footer.module.css.map */

@@ -1,20 +1,24 @@
 .floatingMenu{
-    position : sticky;
-    left : 1783px;
+    position : fixed;
+    // left : 1783px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
     box-sizing : border-box;
     width : 71px;
     height : 71px;
     border-radius: 100px;
-    display : flex;
-    justify-content: center;
-    align-items: center;
     background-color: #B3E7FF;
     border: 1.5px solid #FF8AA3;
+    cursor : pointer;
 }
 
 
 #first {
+    // position : sticky;
     top : 500px;
+    left : 1783px;
+    // bottom : 350px;
 
     #floating_home{
         width : 60px;
@@ -23,7 +27,10 @@
 }
 
 #second{
+    // position : sticky;
     top : 587px;
+    left : 1783px;
+    // bottom : 253px;
 
     #floating_top{
         width : 42px;
@@ -32,7 +39,10 @@
 }
 
 #third{
+    // position : sticky;
     top : 674px;
+    left : 1783px;
+    // bottom : 177px;
     
     #floating_inquiry{
         width : 23px;
@@ -41,10 +51,14 @@
 }
 
 #fourth{
+    // position : sticky;
     top : 761px;
+    left : 1783px;
+    // bottom : 91px;
     
     #floatingBar_logo{
         width : 44px;
         height : 42px;
     }
 }
+

@@ -1,0 +1,49 @@
+.floatingMenu {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 71px;
+  height: 71px;
+  border-radius: 100px;
+  background-color: #B3E7FF;
+  border: 1.5px solid #FF8AA3;
+  cursor: pointer;
+}
+
+#first {
+  top: 500px;
+  left: 1783px;
+}
+#first #floating_home {
+  width: 60px;
+  height: 48px;
+}
+
+#second {
+  top: 587px;
+  left: 1783px;
+}
+#second #floating_top {
+  width: 42px;
+  height: 48px;
+}
+
+#third {
+  top: 674px;
+  left: 1783px;
+}
+#third #floating_inquiry {
+  width: 23px;
+  height: 46px;
+}
+
+#fourth {
+  top: 761px;
+  left: 1783px;
+}
+#fourth #floatingBar_logo {
+  width: 44px;
+  height: 42px;
+}/*# sourceMappingURL=Floating.module.css.map */

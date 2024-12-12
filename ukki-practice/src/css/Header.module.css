@@ -1,0 +1,58 @@
+.header {
+  position: fixed;
+  background-color: #FFF3A7;
+  width: 1920px;
+  height: 80px;
+  cursor: default;
+}
+.header #logo {
+  position: absolute;
+  top: 10px;
+  left: 68px;
+  width: 135px;
+  height: 51px;
+  cursor: pointer;
+}
+.header p {
+  position: absolute;
+  top: -3px;
+  font-family: "Bobaesum Jindo TTF";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 33px;
+  color: #FF8AA3;
+  display: inline-block;
+}
+.header #search {
+  left: 1185px;
+  width: 56px;
+  cursor: pointer;
+}
+.header #about {
+  left: 1304px;
+  width: 56px;
+  cursor: pointer;
+}
+.header #notice {
+  left: 1415px;
+  width: 111px;
+  cursor: pointer;
+}
+.header #mypage {
+  left: 1580px;
+  width: 138px;
+  cursor: pointer;
+}
+.header span {
+  position: absolute;
+  top: 32px;
+  left: 1769px;
+  width: 70px;
+  height: 26px;
+  font-family: "Pretendard Variable";
+  font-weight: 800;
+  font-size: 20px;
+  color: #1E1E1E;
+  cursor: pointer;
+}/*# sourceMappingURL=Header.module.css.map */

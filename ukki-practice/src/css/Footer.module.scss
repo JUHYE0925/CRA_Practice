@@ -1,9 +1,11 @@
+
 .footerStyle{
     position : absolute;
     top : 3928px;
     width : 1920px;
     height : 226px;
     background-color: #FFF3A7;
+    cursor : default;
 
     #honbab_ukki{
         position : absolute;
@@ -21,6 +23,7 @@
         font-size: 20px;
         top : 15px;
         line-height: 35px;
+        cursor : pointer;
     }
 
     #first{
@@ -50,6 +53,7 @@
         display : flex;
         justify-content: center;
         align-items: center;
+        cursor : default;
 
         P{
             position : absolute;
@@ -59,6 +63,7 @@
             font-style: normal;
             font-weight: 700;
             font-size: 20px;
+            cursor : default;
         }
     }
 }

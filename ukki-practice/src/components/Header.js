@@ -1,10 +1,11 @@
-import styles from '../css/scss/Header.module.scss';
+import styles from '../css/Header.module.css';
+import header_logo from '../images/common/ukki-logo.png';
 
 function Header(){
 
     return(
         <div className={styles.header}>
-            <img src='/images/common/ukki-logo.png' alt='우끼로고' id={styles.logo}/>
+            <img src={header_logo} alt='우끼로고' id={styles.logo}/>
             <p id={styles.search}>검색</p>
             <p id={styles.about}>소개</p>
             <p id={styles.notice}>공지사항</p>

@@ -1,3 +1,4 @@
+
 $primary-color-pink : #FF8AA3;
 $primary-color-yellow1 : #FFF3A7;
 $primary-color-yellow2 : #FEDA00;
@@ -10,6 +11,7 @@ $primary-color-black-title : #1E1E1E;
     background-color: $primary-color-yellow1;
     width: 1920px;
     height: 80px;
+    cursor : default;
 
     #logo{
         position : absolute;
@@ -17,6 +19,7 @@ $primary-color-black-title : #1E1E1E;
         left : 68px;
         width : 135px;
         height : 51px;
+        cursor : pointer;
     }
     p {
         position : absolute;
@@ -32,18 +35,22 @@ $primary-color-black-title : #1E1E1E;
     #search {
         left : 1185px;
         width : 56px;
+        cursor : pointer;
     }
     #about {
         left : 1304px;
         width : 56px;
+        cursor : pointer;
     }
     #notice {
         left : 1415px;
         width : 111px;
+        cursor : pointer;
     }
     #mypage {
         left : 1580px;
         width : 138px;
+        cursor : pointer;
     }
     span {
         position : absolute;
@@ -55,5 +62,6 @@ $primary-color-black-title : #1E1E1E;
         font-weight: 800;
         font-size : 20px;
         color : $primary-color-black-title;
+        cursor : pointer;
     }
 }
