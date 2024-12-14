@@ -1,8 +1,10 @@
+
+
 function UserStorePage(){
 
     return(
         <>
-        <p>가게상세페이지</p>
+            <p>가게 상세조회 페이지</p>
         </>
     );
 }

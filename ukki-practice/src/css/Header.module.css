@@ -1,7 +1,7 @@
 .header {
-  position: fixed;
+  position: absolute;
   background-color: #FFF3A7;
-  width: 1920px;
+  width: 100%;
   height: 80px;
   cursor: default;
 }
@@ -15,7 +15,7 @@
 }
 .header p {
   position: absolute;
-  top: -3px;
+  top: 25px;
   font-family: "Bobaesum Jindo TTF";
   font-style: normal;
   font-weight: 400;

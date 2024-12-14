@@ -7,9 +7,9 @@ $primary-color-black-strong : #232323;
 $primary-color-black-title : #1E1E1E;
 
 .header {
-    position : fixed;
+    position : absolute;
     background-color: $primary-color-yellow1;
-    width: 1920px;
+    width: 100%;
     height: 80px;
     cursor : default;
 
@@ -23,7 +23,7 @@ $primary-color-black-title : #1E1E1E;
     }
     p {
         position : absolute;
-        top : -3px;
+        top : 25px;
         font-family: 'Bobaesum Jindo TTF';
         font-style: normal;
         font-weight: 400;
