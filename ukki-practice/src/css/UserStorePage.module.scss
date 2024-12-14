@@ -1,0 +1,21 @@
+
+.bannerStyle{
+    position : absolute;
+    left : 50px;
+    top : 120px;
+    width : 1805px;
+    height : 381px;
+    border : solid 1px black;
+    // padding-left : 10px;
+
+    #profileStyle{
+        position : absolute;
+        left : 140px;
+        top : 120px;
+        width : 244px;
+        height : 221px;
+        border : solid 1px black;
+        border-radius: 50px;
+        text-align: center;
+    }
+}

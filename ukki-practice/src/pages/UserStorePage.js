@@ -1,10 +1,13 @@
-
+import styles from '../css/UserStorePage.module.css';
 
 function UserStorePage(){
 
     return(
         <>
-            <p>가게 상세조회 페이지</p>
+            <div className={styles.bannerStyle}>배너 영역
+                <div id={styles.profileStyle}>프로필영역</div>
+            </div>
+            {/* <div>배너 영역</div> */}
         </>
     );
 }
