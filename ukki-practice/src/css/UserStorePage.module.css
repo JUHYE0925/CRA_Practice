@@ -1,4 +1,4 @@
-.bannerStyle {
+.userStoreStyle .bannerStyle {
   position: absolute;
   left: 50px;
   top: 120px;
@@ -6,7 +6,7 @@
   height: 381px;
   border: solid 1px black;
 }
-.bannerStyle #profileStyle {
+.userStoreStyle .bannerStyle #profileStyle {
   position: absolute;
   left: 140px;
   top: 120px;
@@ -15,4 +15,14 @@
   border: solid 1px black;
   border-radius: 50px;
   text-align: center;
+}
+.userStoreStyle #storeName {
+  position: absolute;
+  width: max-content;
+  height: 55px;
+  left: 112px;
+  top: 627px;
+  font-family: "Bobaesum Jindo TTF";
+  font-style: "regular";
+  font-size: 50px;
 }/*# sourceMappingURL=UserStorePage.module.css.map */
